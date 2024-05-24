@@ -1,4 +1,5 @@
-# Build Jiang Seurat object from matrix and metadata csv
+# Build Seurat object from matrix and metadata csv
+# Data obtained from Jiang et al, 2023: https://doi.org/10.1038/s41421-022-00513-z
 
 library(Seurat);library("RColorBrewer")
 
