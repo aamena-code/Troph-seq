@@ -12,3 +12,5 @@ Experimental work:
 We treated mouse TSCs _in vitro_ with PROTAC degrader ACBI1, or bromodomain inhibitor PFI-3 and used _cis_-ACBI1 and DMSO as control treatments. 
 Treatments were added to media at day -1 of differentiation and RNA harvested from trophoblasts at day 0 (in TSC stage), day 2 and day 4 of differentiation. ATAC-seq was carried out in parallel in day 0 and day 2 differentiated trophoblasts. 
 Activin A was also added to differentiation media of half of the day 2 and 4 differentiated trophoblasts, in combination with ACBI1 or PFI-3 treatments, to determine whether BAF complex dysfunction affected response to Activin A.
+
+For any further questions, please contact me directly at: aamenapatel@live.co.uk
