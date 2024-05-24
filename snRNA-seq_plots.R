@@ -4,7 +4,8 @@ library (ggrepel)
 library (patchwork)
 library(ggplot2)
 
-load ("/scRNA analysis published/AllStages_TrophoblastNuclei_obj.Rdata")
+# from Marsh and Blelloch (2020):  https://doi.org/10.7554/eLife.60266
+load ("/scRNA analysis published/AllStages_TrophoblastNuclei_obj.Rdata") 
 mouse.troph.combined.updated = UpdateSeuratObject(object = mouse.troph.combined)
 
 png(file='Marsh_nolabel_res300.png', width=2000, height=2000, res=300)
