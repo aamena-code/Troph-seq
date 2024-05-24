@@ -231,8 +231,20 @@ title_gpar <- gpar(fontsize = 16)
 
 png(file='DIST_TO_TSS.png', width=3000, height=2000, res=300)
 grid.arrange(TSS.d0.down, TSS.d0.up, TSS.d2.down, TSS.d2.up,
-             ncol = 2, top = textGrob("Distribution of transcription factor-binding loci relative to TSS", gp = title_gpar))
+             ncol = 2, top = textGrob("Distribution of DARs relative to TSS", gp = title_gpar))
 dev.off()
+
+# alternative arrangements
+peakAnnoList <- c(peakAnno.down.d0.ACBI_D, peakAnno.up.d0.ACBI_D, peakAnno.down.d2.ACBI_D, peakAnno.up.d2.ACBI_D)
+
+plotAnnoBar(peakAnnoList[[1]]) # check which is which
+plotAnnoBar(peakAnnoList[[2]])
+plotAnnoBar(peakAnnoList[[3]])
+plotAnnoBar(peakAnnoList[[4]])
+plotAnnoBar(peakAnnoList)
+
+plotDistToTSS(peakAnnoList)
+
 
 ##### Day 2 ACBI vs DMSO #####
 
