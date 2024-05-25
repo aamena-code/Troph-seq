@@ -4,7 +4,7 @@
 import os
 import pandas as pd
 
-dir = '/Users/u1501359/Documents/Lab work:protocols/mTSCs_ATAC_2022/Contrasts'
+dir = 'path-to-dir/Contrasts'
 os.mkdir(dir+'/bed_files')
 
 os.chdir(dir)
