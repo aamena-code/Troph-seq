@@ -70,7 +70,8 @@ write.table (sampleID.Coll, file='/Counts/sampleID.Coll.txt', sep = '\t')
 res <- results(ddsColl)
 res 
 mcols(res, use.names=TRUE)
-
+# batch correction excluded in this script
+                               
 ## PCA plots ##
 vst.pca <- vst(ddsColl)
 png(file='/Counts/PCA_all.png', width=1100, height=650)
