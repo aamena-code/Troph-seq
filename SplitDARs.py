@@ -4,7 +4,7 @@
 import os
 import pandas as pd
 
-dir = '/Users/u1501359/Documents/Lab work:protocols/mTSCs_ATAC_2022/Contrasts'
+dir = 'path-to-dir/mTSCs_ATAC_2022/Contrasts'
 os.mkdir(dir+'/updownDARs')
 
 os.chdir(dir)
